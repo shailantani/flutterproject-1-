@@ -107,7 +107,8 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headline4,
             ),
             const Text(
-              '(congrats you succesfully wasted your time :/)'
+              '(congrats you succesfully wasted your time )'
+
             )
           ],
         ),
