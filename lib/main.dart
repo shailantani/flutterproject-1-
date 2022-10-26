@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.green,
+      primarySwatch: Colors.green,
       ),
       home: const MyHomePage(title: 'Daily Button Tracker'),
     );
@@ -106,6 +106,9 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            const Text(
+              '(congrats you succesfully wasted your time :/)'
+            )
           ],
         ),
       ),
